@@ -1,2 +1,2 @@
 Skolas projekts
-### Autors: Martins
+### Autors: Martins Vjaters
