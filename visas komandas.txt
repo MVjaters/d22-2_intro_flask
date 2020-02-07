@@ -1,0 +1,22 @@
+Lai palaist webserveri     (ip adrese 127.0.0.1:port )
+1) jauzinstalē flask
+
+    pip install -r ./requirements.txt 
+
+-r nozīme, kas sekos fails ar bibliotēkam 
+./requirements.txt ir fails, kurā atrodas bibliotēkas, kas nepieciešamas projektam
+
+Terminalī:
+python
+pip
+------------
+(palaist)  python main.python
+python <faila nosaukums/skripts ko palaist>
+
+
+
+
+-------------------------------------------------------
+Postman
+
+
