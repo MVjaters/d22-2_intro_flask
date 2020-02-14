@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+        <header>
+                <div class="container">
+                  <nav>
+                    <ul class="menu">
+                      <li {% if active_page == "home" %}
+                            class= "active"
+                          {% endif %} >
+                           <a href="/home">Home</a>  
+                      </li>
+                      
+                      <li {% if active_page =="about" %}
+                            class = "active"
+                          {% endif %} >
+                          <a href="/about">About</a>
+                      </li>
+                      
+                      <li {% if active_page == "contact" %}
+                            class = "active"
+                          {% endif %} >
+                          <a href="/contact">Contact</a>
+                      </li>
+                      
+                      <li {% if active_page == "chats" %}
+                            class = "active"
+                          {% endif %} >
+                          <a href="/chat">Chat</a>
+                      </li>
+                         
+                    </ul>
+                  </nav>
+                </div>
+              </header>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>RVT chats</title>
+    <link href="{{ url_for('static', filename='favicon.ico') }}" rel="icon" type="image/x-icon" />
+</head>
+
+<body onload="lasiChatu();" class="body">
+    {% block saturs %}
+    {% endblock %}
+    <script src="{{ url_for('static', filename='chats.js') }}"></script>
+</body>
+
+</html>
